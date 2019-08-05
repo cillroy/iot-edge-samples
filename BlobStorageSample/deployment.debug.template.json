@@ -33,7 +33,7 @@
           },
           "blobarchivermodule": {
             "settings": {
-              "image": "vslepakov/blobarchivermodule:0.0.2-amd64",
+              "image": "${MODULES.BlobArchiverModule.debug}",
               "createOptions": ""
             },
             "type": "docker",
