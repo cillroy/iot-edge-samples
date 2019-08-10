@@ -60,7 +60,8 @@
               "image": "${MODULES.SampleModule.debug}",
               "createOptions": {
                 "Env": [
-                  "ASPNETCORE_URLS=http://+:3956"
+                  "ASPNETCORE_URLS=http://+:3956",
+                  "IOTEDGE_WORKLOADURI=http://+:15581/"
                 ],
                 "HostConfig": {
                   "PortBindings": {
