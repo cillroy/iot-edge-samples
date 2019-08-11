@@ -23,7 +23,7 @@ namespace SampleModule.Controllers
             using (var reader = new StreamReader(Request.Body))
             {
                 var body = reader.ReadToEnd();
-                Console.WriteLine($"Got From Request: {body}");
+                Console.WriteLine($"POST: Got From Request: {body}");
             }
         }
     }

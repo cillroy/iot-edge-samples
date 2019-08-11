@@ -61,7 +61,7 @@
               "createOptions": {
                 "Env": [
                   "ASPNETCORE_URLS=http://+:3956",
-                  "IOTEDGE_WORKLOADURI=http://+:15581/"
+                  "IOTEDGE_WORKLOADURI=http://10.0.75.1:15581/"
                 ],
                 "HostConfig": {
                   "PortBindings": {
