@@ -26,5 +26,8 @@ namespace SampleModule.Controllers
                 Console.WriteLine($"POST: Got From Request: {body}");
             }
         }
+        // public string JsonStringBody([FromBody] string content) {
+        //     return content;
+        // }
     }
 }
