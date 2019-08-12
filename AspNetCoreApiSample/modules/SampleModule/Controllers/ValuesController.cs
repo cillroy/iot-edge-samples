@@ -17,6 +17,7 @@ namespace SampleModule.Controllers
         }
 
         // POST api/values
+        // example: http://localhost:3956/api/values
         [HttpPost]
         public void Post()
         {
@@ -29,5 +30,10 @@ namespace SampleModule.Controllers
         // public string JsonStringBody([FromBody] string content) {
         //     return content;
         // }
+    }
+
+    public class SmartCommunities_APP {
+        string appID {get;set;}
+        string payload {get;set;}
     }
 }
